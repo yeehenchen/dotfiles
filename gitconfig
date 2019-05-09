@@ -15,7 +15,7 @@
 
 [alias]
   co = checkout
-  st = status -sb
+  st = status
   br = branch
   ci = commit
   fo = fetch origin
@@ -37,6 +37,7 @@
 
   # Removes a file from the index
   unstage = reset HEAD --
+  gst = git status
 
 [help]
   autocorrect = 1
@@ -49,3 +50,8 @@
 [user]
 	email = yeehenchen@gmail.com
 	name = Benjamin Chen
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

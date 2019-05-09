@@ -13,9 +13,11 @@
 		"ERB Snippets",
 		"Git",
 		"GitGutter",
+		"HTML-CSS-JS Prettify",
 		"Package Control",
 		"SCSS",
 		"SublimeLinter",
-		"SublimeLinter-rubocop"
+		"SublimeLinter-rubocop",
+		"Vue Syntax Highlight"
 	]
 }
